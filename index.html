@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oswaldo Rivera</title>
-
+    <link rel="shortcut icon" href="/img/favicon.png">
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,31 +13,131 @@
     <header>
         <a href="#"><img src="img/logo.png" alt="Logo" class="logo"></a>
         <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <!-- <li><a href="#logros">logros</a></li>
-                <li><a href="#experiencia">Experiencia</a></li> -->
-                <li><a href="#contacto">Contacto</a></li>
+            <ul id="menu">
+                <li class="menu-item"><a href="#inicio" class="current">Inicio</a></li>
+                <li class="menu-item"><a href="#experiencia">Experiencia</a></li>
+                <li class="menu-item"><a href="#proyectos">Proyectos</a></li>
+                <li class="menu-item"><a href="#contacto" >Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <article id="inicio">
-                <img src="img/gato-pelota.png" alt="Gatito" class="imagen-ppal">
-                <h1>¡Hola! Soy Oswaldo</h1>
-                <p>
-                    Soy venezolano. Nací en el oriente del país y viví la mayor parte de mi vida en Caracas. Estudié
-                    Tecnicatura Superior en Diseño Industrial y, posteriormente, en el interior del país, estudié Tecnicatura Superior
-                    en Informática. 
-                </p>
-                <p>
-                    De ambas carreras he podido obtener mucho provecho a lo largo de mi vida laboral. En el presente,
-                    intento mantenerme actualizado con las nuevas tendencias de desarrollo de aplicaciones, dentro del segmento en el que
-                    trabajo, lo cual hoy día es mi pasión.
-                </p>
-                <div class="boton">
-                    <a href="">Descargar mi CV</a>
+                <img src="img/yo.png" alt="Oswaldo Rivera" class="imagen-ppal">
+                <div class="content">
+                    <h1>¡Hola! Soy Oswaldo</h1>
+                    <p>
+                        Soy <strong>Desarrollador de Software en Ambiente Web</strong>.
+                    </p>
+                    <p>
+                        Nací en Venezuela al oriente del país. Viví en Caracas 
+                        donde estudié Tecnicatura Superior en Diseño Industrial. Luego estudié y obtuve el título de
+                        <strong>Técnico Superior Universitario en Informática</strong>. 
+                    </p>
+                    <p>
+                        Ambas carreras han determinado en gran medida mi vida laboral, y en el presente
+                        hago todo lo que esté a mi alcance para mantenerme al día con las nuevas tendencias de desarrollo de aplicaciones 
+                        dentro del segmento en el que trabajo. 
+                    </p>
+                    <p>
+                        Ese es mi camino y mi meta.
+                    </p>
+                    <div class="boton">
+                        <a href="docs/curr2023.pdf" target="_blank">Descargar mi CV</a>
+                    </div>
+                </div>
+            </article>
+            <article id="experiencia">
+                <img src="img/experiencia_icon.svg" alt="Experiencia" class="imagen-icon">
+                <div class="content">
+                    <h2>Experiencia</h2>
+                    <p>
+                        <strong>Instituto Superior de Formación Técnica Profesional CENT N° 40</strong>
+                        <br>
+                        Docente de "Sistemas de Información I y II", "Tecnología de la Información", 
+                        "Proyecto de Trabajo Final" y "Practicas Profesionalizantes II".
+                    </p>
+                    <p>
+                        <strong>Escuela Secundaria Río Negro</strong>
+                        <br>
+                        <span class="secundario">Viedma RN</span>    
+                        <br>
+                        Referente Escolar TIC (2023)
+                        <br>
+                        Docente de Matemática de todos los niveles (2019 - 2022)
+                    </p>
+                    <p>
+                        <strong>Ciudad Postal LCC</strong>
+                        <br>
+                        <span class="secundario">Palm Beach, Florida USA</span>
+                        <br>
+                        Desarrollador Web y Sistema de Gestión de servicios
+                    </p>
+                    <p>
+                        <strong>La Pequeña Imprenta</strong>
+                        <br>
+                        <span class="secundario">Viedma RN</span>
+                        <br>
+                        Diseñador Gráfico
+                    </p>
+                    <p>
+                        <strong>Corporación Ciudad Postal</strong>
+                        <br>
+                        <span class="secundario">Caracas, Venezuela</span>
+                        <br>
+                        Desarrollo de Sistema de Gestión de Envíos
+                        <br>
+                        Coordinación de Departamento de Operaciones
+                    </p>
+                </div>
+            </article>
+            <article id="proyectos">
+                <img src="img/logros_icon.svg" alt="Proyectos" class="imagen-icon">
+                <div class="content">
+                    <h2>Proyectos en Informática</h2>
+                    <p>
+                        <strong>Sistema de Gestión de Envíos</strong>
+                        <br>
+                        Sistema en ambiente web para gestionar envios desde USA al resto del mundo, de compras hechas en tiendas online.
+                        <br>
+                        <span class="secundario">Para Ciudad Postal LCC - Palm Beach, Florida USA</span>
+                    </p>
+                    <p>
+                        <strong>CPSystem</strong>
+                        <br>
+                        Sistema en ambiente web para gestion de envío, recepción, distribución y administración. 
+                        <br>
+                        <span class="secundario">Para Corporacion Ciudad Postal - Caracas, Venezuela.</span>
+                    </p>
+                    <p>
+                        <strong>Pauta Publicitaria</strong>
+                        <br>
+                        Agenda digital para control de pauta publicitaria diaria.
+                        <br>
+                        <span class="secundario">Para Dpto. Diseño y Diagramación del Diario Jormada - Guárico, Venezuela.</span>
+                    </p>
+                    <p>
+                        <strong>SisCompS</strong>
+                        <br>
+                        Sistema de cómputos de sentencias de causas penales, desarrollado en Visual Basic.
+                        <br>
+                        <span class="secundario">Para Abg. Jhanya Gómez (TSJ) - Caracas, Venezuela.</span>
+                    </p>
+                    <p>
+                        <strong>SISEX</strong>
+                        <br>
+                        Utilidad para registro y seguimiento de ubicación física de expediente.
+                        <br>
+                        <span class="secundario">Para Abg. Jhanya Gómez (TSJ) - Caracas, Venezuela.</span>
+                    </p>
+                    <p>
+                        <strong>FILA1</strong>
+                        <br>
+                        Módulo de control para la reventa de boletería para los usuario del servicio "En Primera Fila".
+                        <br>
+                        <span class="secundario">Para Caras 3000 CA - Caracas, Venezuela.</span>
+                    </p>
                 </div>
             </article>
             <article id="contacto">
@@ -65,5 +165,6 @@
     <footer>
         <a href="https://www.eidosglobal.org/">Eidos Global</a>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
